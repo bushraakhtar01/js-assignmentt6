@@ -51,10 +51,10 @@
 // document.write("After replacement: "+ res);
 
 // chapter 21-25--task 9
-// var val="472";
+//var val="472";
 // document.write("<h1>Value: "+val+"<br>");
 // document.write("Type: "+ typeof(val))
-// var val1=parseInt(val);
+// var val1=Number(val)
 // document.write("<h1>Value: "+val1+"<br>");
 // document.write("Type: "+ typeof(val1))
 
@@ -337,7 +337,7 @@
 // var date=new Date();
 // var hr=date.getHours()
 
-// if(hr>12){
+// if(hr>=12){
 // alert("Its PM")
 // }
 // else{
@@ -370,16 +370,16 @@
 // chapter 31 to 34--task 10
 
 
-//     var currDate=new Date();
+//     var currDate=new Date('Dec 5 2015');
 //     var militoday=currDate.getTime()
-//     var preDate=new Date('1 Jan,2020')
+//     var preDate=new Date('1 Jan,2015')
 //     var miliPre=preDate.getTime()
 //     var diff=militoday-miliPre;
 //     var final=(diff/1000)
     
 
 //     document.write("<h1>On refernce date "+currDate)
-//     document.write("<h1> "+final+" seconds had passed since begining of 2020")
+//     document.write("<h1> "+final+" seconds had passed since begining of 2015")
 
 
 
