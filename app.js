@@ -103,6 +103,23 @@
 // var password=prompt("Enter password");
 
 // document.write("<h1>Entered Password: "+password+"<br>")
+// var lowerCaseLetters = /[a-z]/g;
+// var upperCaseLetters = /[A-Z]/g;
+// var numbers = /[0-9]/g;
+
+// if(password.length<6){
+//     alert("Password length should not be less than 6, Please enter a valid password")
+// }
+// if(password.match(numbers)&&(password.match(upperCaseLetters)||password.match(lowerCaseLetters))){
+    
+// if(password[0]>=0||password[0]<=9){
+//     alert("Password should not begin with number")
+// }
+// }
+// else{
+//     alert("Password must contain letters and number")
+    
+// }
 
 
 // if(password.match(/^[a-z0-9]+$/i)){
