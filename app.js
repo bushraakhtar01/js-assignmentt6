@@ -100,6 +100,8 @@
 // }
 
 // chapter 21-25--task 15
+
+
 // var password=prompt("Enter password");
 
 // document.write("<h1>Entered Password: "+password+"<br>")
@@ -122,16 +124,6 @@
 // }
 
 
-// if(password.match(/^[a-z0-9]+$/i)){
-//     alert('as')
-// }
-
-// else if(password[0]>=0||password[0]<=9){
-//     alert("Password should not begin with number"+"<br>")
-// }
-// else if(password.length!=6){
-//     document.write("Password length should not be less than 6"+"<br>"+"Please enter a valide password"+"<br>")
-// }
 
 // chapter 21-25---task 16
 // var uni="University of karachi";
@@ -248,7 +240,10 @@
 
 // chapter 26-30--task 7
 
-
+//var regex = /[+-]?\d+(\.\d+)?/g;
+//var str2 = prompt("Enter your weight in kg");
+//var floats2 = str2.match(regex).map(function(v) { return parseFloat(v); });
+//document.write("The weigh of user is "+floats2+" kilograms");
 
 
 // chapter 26-30--task 8
